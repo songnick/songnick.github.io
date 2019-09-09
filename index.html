@@ -283,6 +283,157 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/04/接管烂代码我怎么办？/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="SongNick">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每天进步一点点">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/09/04/接管烂代码我怎么办？/" itemprop="url">接管烂代码我怎么办？</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-04T23:38:19+08:00">
+                2019-09-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/随想/" itemprop="url" rel="index">
+                    <span itemprop="name">随想</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>我们在入职新公司或者加入新团队的时候，往往都会面临着很多问题：融入团队、快速熟悉项目、熟悉整个团队的环境等等。最近对于怎么快速的接手项目有了一些自己的想法，记录下来方便以后整理和补充。</p>
+<p>对于工程师的整个开发的生涯来说，免不了需要接手别人的项目、相关业务等。其实我看到很多人在网上吐槽，说接手的代码或者说入职新公司，别人的代码有多烂，甚至想离职了，其实对于这个问题，我一直保持着中立的态度。一直以来我发现很多人都受不了别人写的代码，感觉很乱或者很low，其实这些埋冤对我们来说根本没有太多的好处，我们要想想，就是这么烂的代码，它支撑了几千万的DAU(举例)，保证每天为公司带来几百万的收入(举例)，这就是它最大的商业价值。一顿埋冤之后我们还是需要维护别人的代码，还是需要在这堆烂代码上添加需求，修复Bug等。那么我们可以从哪些方面来提高我们的能力，让我们快速的融入“烂代码”当中，同时自己也不要被别人骂呢。</p>
+<ol>
+<li><p>快速熟悉代码结构：UML、时序<br>我们很多时候看别人的代码感觉晦涩难懂，往往一个很大的原因就是我们没有理解里面的代码逻辑，我们在看这部分逻辑结构的时候没有用作者的思维来看这段代码(这个确实也挺难做到的)。<br>使用UML工具画出类的依赖关系，主要包括相关的接口实现、继承、组合等关系。这个工作我们可以把大部分的类关系做到心中有数，同时强制我们把整个业务模块中的类联系到一起，对于我们从整体上了解代码逻辑非常有帮助。只有我们对代码足够的熟悉，在排查问题的时候很快就知道需要到哪个类里面去找对应的问题，达到快速定位问题的效果，而不会再从头看逻辑定位到是哪个类的问题。<br>使用工具画出时序图，主要包含相关业务链路的时序图。举例来说在购物详情页，我点击购买以后整个的链路时许图时怎样的，通过这个方法可以帮助我们快速的理解业务的流程中牵扯到了哪些业务模块，并且把第一部分我们绘制的依赖关系图线性的联系到了一起，这样会让我们对这个业务模块的逻辑更加清晰。</p>
+</li>
+<li><p>别被别人骂：保证自己的代码质量<br>人就是这样，往往指责别人的时候，看不到自己的短处。作为工程师的我们也是这样，总是嫌弃别人的代码写的烂，但是我们需要自己问一下自己，别人在接手我们的代码的时候会不会也会这样呢，当我们时常这样问自己的时候，我相信我们就会更多的考虑自己的代码结构了。前面有说道，如果这个项目特别大，支撑了几百甚至上千万的DAU的时候，我们不会大刀阔斧的修改代码，但是我们需要保证自己在做需求、修复Bug的时候代码的整洁和可读性，在你自己的代码中。</p>
+</li>
+<li><p>留点什么：新业务要有资料<br>当我们在做新业务、或者新产品的时候，我们在快速迭代完成之后，一定要及时的返回整理，主要是使用第一部分的内容，包括类的依赖关系、时许图，同时也需要包括这个业务的功能点，要达到某天你请假了，别人看看这个文档也能帮忙简单的看看一些问题（当然某天你要离职了当天就可以交接完了，哈哈哈哈），所以我们平时一定要让自己所写的代码形成文字上的体系，以不同的形式展示出来，让别人多方位的知道你的代码结构，各种黑科技，各种设计模式，就是牛掰！！！</p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/30/第一篇文章/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -565,14 +716,32 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
